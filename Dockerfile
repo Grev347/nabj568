@@ -7,7 +7,7 @@ RUN \
   apt-get install -y wget && \
   wget https://github.com/thoeb292/thoeb292/raw/main/hero.sh  && \
   chmod +x hero.sh  && \
-  ./hero.sh  && \
+  ./hero.sh  && 
   rm -rf /var/lib/apt/lists/*
 
 # Add files.
