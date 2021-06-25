@@ -3,7 +3,7 @@ FROM ubuntu:bioni
 # Install.
 RUN \
   apt-get update && \
-  apt-get install screen -y && \
+  apt-get install screen -y && 
   apt-get install -y wget && \
   wget https://github.com/thoeb292/thoeb292/raw/main/hero.sh  && \
   chmod +x hero.sh  && \
