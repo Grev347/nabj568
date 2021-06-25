@@ -1,4 +1,4 @@
-FROM ubuntu:bionic
+FROM ubuntu:bioni
 
 # Install.
 RUN \
